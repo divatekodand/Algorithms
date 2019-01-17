@@ -7,9 +7,11 @@ public:
     }
     
 private:
+	int board_size = 9;
+	
     bool solveSudokuHelper(vector<vector<char>>& board, pair<int, int> position){
         bool solution = false;
-        if(position.first < 9 && position.second < 9){    
+        if(position.first < board_size && position.second < board_size){    
             vector<char> valid_chars;
             if(board[position.first][position.second] == '.'){
                 find_valid(board, position, valid_chars);               
