@@ -1,3 +1,8 @@
+/*
+Binary Search Tree
+Author : Mohan Rao Divate Kodandarama
+e-mail : divatekodand@wisc.edu / mohanr318@gmail.com
+*/
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
