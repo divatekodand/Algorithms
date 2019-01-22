@@ -1,3 +1,9 @@
+/*
+Sudoku solver using backtracking
+Author : Mohan Rao Divate Kodandarama
+e-mail : divatekodand@wisc.edu / mohanr318@gmail.com
+*/
+
 class Sudoku {
 public:
     void solveSudoku(vector<vector<char>>& board) {
